@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 0; 
+    text-align: center;
+  }
+  
+  :root {
+    --bg-color: white; 
+    --text-color: black; 
+    --primary-color: #586b80; 
+  }
+  
+  .dark-mode {
+    --bg-color: #222; /*Usado no Java pra mudar a cor de fundo*/
+    --text-color: white; /*Usado no Java pra mudar a cor das letras*/
+    --primary-color: #838112;/*usado no Java pra mudar a cor do botão*/
+  }
+  
+  body, header, section, footer, button, a {
+    background-color: var(--bg-color); 
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
